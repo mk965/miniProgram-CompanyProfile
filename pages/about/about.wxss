@@ -1,0 +1,63 @@
+/**index.wxss**/
+.container {
+  padding-top: 30px;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+.info {
+  margin-top: 50px;
+  text-align: center;
+}
+.line_y {
+  width: 3px;
+  height: 100%;
+  height: 18px;
+  display: inline-block;
+  background-color: #09bb07;
+}
+view.text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 15px;
+  color: #656565;
+   background-color: #ccc;
+}
+view.text text {
+  margin-left: 10px;
+  line-height: 18px;
+ 
+}
+view.text2 {
+
+
+  position: relative;
+  padding: 10px 10px 10px 12px;
+  font-size: 15px;
+  color: #656565;
+}
+view.text2 text{line-height:32px;text-indent:20px;display: block;}
+.gy image{
+  width: 100%;
+
+}
+.gy1 image{
+width:100%;
+margin:0;padding:0;border:0;
+}
+.contus{padding:10px;}
+.contus text{display: block;line-height: 32px;}
+.jishuzc{text-align: center;line-height: 42px;font-size:12px;color:#666;}

@@ -1,0 +1,16 @@
+<view class="main">
+	<map
+		id="map"
+		longitude="115.4859310000"
+		latitude="36.7129170000"
+		scale="14"
+		controls="{{controls}}"
+		bindcontroltap="controltap"
+		markers="{{markers}}"
+		bindmarkertap="markertap"
+		bindregionchange="regionchange"
+		show-location
+		style="width: 100%; height: 900rpx;"
+	></map>
+	<button type="default" bindtap="click">开始导航</button>
+</view>

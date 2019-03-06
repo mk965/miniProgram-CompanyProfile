@@ -1,0 +1,121 @@
+<view class="container">
+  <view class="text">
+    <view class="line_y"></view>
+    <text>非标轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist1}}" wx:for-item="image" class="index_anli_v" data-type="非标轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>非标轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>轨道滑轮轴承/调直轮轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist2}}" wx:for-item="image" class="index_anli_v" data-type="轨道滑轮轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>轨道滑轮轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>角接触轴承</text>
+  </view>
+  <view class="index_anli">
+    <view wx:for="{{imgalist3}}" wx:for-item="image" class="index_anli_v" data-type="角接触轴承">
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+      <text>角接触轴承</text>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>链条轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist4}}" wx:for-item="image" class="index_anli_v" data-type="链条轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>链条轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>滑轮轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist5}}" wx:for-item="image" class="index_anli_v" data-type="滑轮轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>滑轮轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>深沟球轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist6}}" wx:for-item="image" class="index_anli_v" data-type="深沟球轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>深沟球轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>一体轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist7}}" wx:for-item="image" class="index_anli_v" data-type="一体轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>一体轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>圆柱滚子轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist8}}" wx:for-item="image" class="index_anli_v" data-type="圆柱滚子轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>圆柱滚子轴承</text>
+      </view>
+    </view>
+  </view>
+  <!------------------------------------------------------------------->
+  <view class="text">
+    <view class="line_y"></view>
+    <text>圆锥滚子轴承</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgalist9}}" wx:for-item="image" class="index_anli_v" data-type="圆锥滚子轴承">
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+        <text>圆锥滚子轴承</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="container">
+    <text class="daodi">到底了</text>
+  </view>
+  <view class="jishuzc">技术支持：Mencre</view>
+</view>

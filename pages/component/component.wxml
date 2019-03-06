@@ -1,0 +1,39 @@
+<view class="index">
+    <view class="head">
+        <view class="title">临清市捷驰轴承有限公司</view>
+        <view class="desc" bindtap="calling">服务电话：18888888888  [拨打电话]</view>
+        
+    </view>
+     <view class="text">
+        <view class="line_y"></view>
+        <text>汽车维修</text>
+    </view>
+    <view class="index_anli">
+
+        <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161025145620851.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+        <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161025145725981.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+        <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161026105258485.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+        <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161026105320876.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+         <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161026105339484.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+        <view class="index_anli_v"  data-type="汽车维修车间">
+          <image mode="widthFix" src="/image/s_20161025145332519.jpg"></image>
+          <text>汽车维修车间</text>
+        </view>
+    </view>
+    <view class="jishuzc">技术支持：MENCRE</view>
+</view>

@@ -1,0 +1,50 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/list/list",
+		"pages/component/component",
+		"pages/about/about",
+		"pages/logs/logs",
+		"pages/map/map"
+	],
+	"window": {
+		"backgroundTextStyle": "dark",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "临清市捷驰轴承有限公司",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#fbf9fe"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "image/ico_1_2.png",
+				"selectedIconPath": "image/ico_1_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/list/list",
+				"iconPath": "image/ico_2_2.png",
+				"selectedIconPath": "image/ico_2_1.png",
+				"text": "所有产品"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"iconPath": "image/ico_4_2.png",
+				"selectedIconPath": "image/ico_4_1.png",
+				"text": "关于我们"
+			}
+		]
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"connectSocket": 10000,
+		"uploadFile": 10000,
+		"downloadFile": 10000
+	},
+	"debug": true
+}

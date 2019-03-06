@@ -1,0 +1,69 @@
+<!--index.wxml-->
+<import src="../../template/item-template.wxml" />
+<view class="container">
+  <view class="section section_gap swiper_box">
+    <template is="index_index_scroll_tmpl" data="{{...index_index_scroll_tmpl}}" />
+  </view>
+  <view class="text">
+    <view class="line_y"></view>
+    <text>服务范围</text>
+  </view>
+  <view class="section index-nav">
+    <template is="index_index_navs_tmpl" data="{{...index_index_navs_tmpl}}" />
+  </view>
+
+  <view class="text">
+    <view class="line_y"></view>
+    <text>产品种类</text>
+  </view>
+  <view class="index_anli">
+    <view>
+      <view wx:for="{{imgainfo}}" wx:for-item="image" class="index_anli_v" data-type="轨道滑轮轴承">
+        <image src="{{image.src}}" data-src="{{image.src}}" bindtap="previewImage"></image>
+        <text>{{image.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="text">
+    <view class="line_y"></view>
+    <text>音响代理品牌</text>
+  </view>
+  <view class="index_anli">
+    <view class="index_anli_v" data-type="丹麦-丹拿">
+      <image mode="widthFix" src="/image/20161020090926999.jpg"></image>
+      <text>丹麦-丹拿</text>
+    </view>
+    <view class="index_anli_v" data-type="美国捷力">
+      <image mode="widthFix" src="/image/20161025151051911.jpg"></image>
+      <text>美国捷力</text>
+    </view>
+    <view class="index_anli_v" data-type="霸克">
+      <image mode="widthFix" src="/image/20161025153319859.jpg"></image>
+      <text>霸克</text>
+    </view>
+    <view class="index_anli_v" data-type="德国伊顿">
+      <image mode="widthFix" src="/image/2016102515440357.jpg"></image>
+      <text>德国伊顿</text>
+    </view>
+    <view class="index_anli_v" data-type="JBL">
+      <image mode="widthFix" src="/image/20161025151658915.jpg"></image>
+      <text>JBL</text>
+    </view>
+    <view class="index_anli_v" data-type="美国骇客">
+      <image mode="widthFix" src="/image/20161025153909748.jpg"></image>
+      <text>美国骇客</text>
+    </view>
+  </view>
+  <view class="text">
+    <view class="line_y"></view>
+    <text>联系我们</text>
+  </view>
+  <view class="contus">
+    <text>公司名称：XXXXXX轴承有限公司 </text>
+    <text bindtap="calling"> 联系电话：18088888888  [点击拨打]</text>
+    <text> 公司地址：XXXXXXXXX工业园</text>
+    <button type="default" bindtap="click">开始导航</button>
+    <button type="default" bindtap="calling">点击拨打客服电话</button>
+  </view>
+  <view class="jishuzc">技术支持：Mencre</view>
+</view>

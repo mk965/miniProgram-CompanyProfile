@@ -1,0 +1,26 @@
+<!--index.wxml-->
+
+<view class="gy1">
+    <image mode="widthFix" src="/image/banner/3.jpg"></image>
+</view>
+ <view class="text">
+        <view class="line_y"></view>
+        <text>关于捷驰</text>
+    </view> 
+     <view class="text2">
+        <text>临清市捷驰轴承有限公司是一家以生产及经营为一体的专业性轴承公司，我公司自主生产各种球轴承主打系列有: 双列角接触球轴承、汽车轮毂轴承、机床配件、五金滑轮、轴承配件、深沟球轴承、圆锥滚子轴承、非标准一体轴承。定做各种非标异型轴承。</text>
+				<text>公司产品规格齐全，具有低噪音、低振动、低摩擦力、高精度、高密封性、高运转性、长寿命，无异音等功能。广泛用于变速箱、仪器仪表、电气、家用电器、内燃机、交通车辆、农业机械、建筑机械、工程机械等行业。先进的生产设备、雄厚的技术力量使企业的产品得到有效的质量保证。我们工厂追求的是品质第一,服务第一,竭诚为广大客户服务. 为了满足更多的客户需求, 公司与多家零售商和代理商建立了长期稳定的合作关系. 希望更多的客户和我们联系洽谈业务。
+</text>
+    </view> 
+ <view class="text">
+        <view class="line_y"></view>
+        <text>联系方式</text>
+    </view> 
+<view class="contus">
+    <text>公司名称：XXXXXX轴承有限公司 </text>
+    <text bindtap="calling"> 联系电话：18088888888  [点击拨打]</text>
+    <text> 公司地址：XXXXXXXXX工业园</text>
+    <button type="default" bindtap="click">开始导航</button>
+    <button type="default" bindtap="calling">点击拨打客服电话</button>
+  </view>
+  <view class="jishuzc">技术支持：Mencre</view>
